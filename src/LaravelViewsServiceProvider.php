@@ -19,7 +19,7 @@ use LaravelViews\Console\ListViewMakeCommand;
 use LaravelViews\Console\MakeViewCommand;
 use LaravelViews\Data\Contracts\Sortable;
 use LaravelViews\Data\TableViewSortData;
-use LaravelViews\Macros\LaravelViewsTestMacros;
+//use LaravelViews\Macros\LaravelViewsTestMacros;
 use LaravelViews\Macros\StrMacros;
 use LaravelViews\Views\Components\DynamicComponent;
 
