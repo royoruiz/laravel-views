@@ -166,7 +166,7 @@ class LaravelViewsServiceProvider extends ServiceProvider
     private function macros()
     {
         $macros = [
-            LaravelViewsTestMacros::class,
+            //LaravelViewsTestMacros::class,
             StrMacros::class
         ];
 
