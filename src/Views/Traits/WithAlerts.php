@@ -25,7 +25,9 @@ trait WithAlerts
             'danger' => __('There was an error executing this action'),
         ];
 
-        $view->emitSelf('notify', [
+        // Nico, 20240514.17:44
+        //$view->emitSelf('notify', [
+        $view->dispatchSelf('notify', [
             'message' => $message ? $message : $messages[$type],
             'type' => $type
         ]);
