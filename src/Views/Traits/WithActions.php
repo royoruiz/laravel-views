@@ -74,7 +74,8 @@ trait WithActions
         }
         // Nico 20240514 . 17:42
         //$this->emitSelf('openConfirmationModal', $actionData);
-        $this->dispatchSelf('openConfirmationModal', $actionData);
+        //$this->dispatchSelf('openConfirmationModal', $actionData);
+        $this->dispatch('openConfirmationModal',$actionData)->self();
     }
 
     /**

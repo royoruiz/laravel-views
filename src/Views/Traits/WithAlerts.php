@@ -27,9 +27,10 @@ trait WithAlerts
 
         // Nico, 20240514.17:44
         //$view->emitSelf('notify', [
-        $view->dispatchSelf('notify', [
+        //$view->dispatchSelf('notify', [
+        $view->dispatch('notify', [
             'message' => $message ? $message : $messages[$type],
             'type' => $type
-        ]);
+        ])->self();
     }
 }
