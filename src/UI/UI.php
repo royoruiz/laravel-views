@@ -14,6 +14,16 @@ class UI
         ]);
     }
 
+
+    public function select-edit($model, $field, $options)
+    {
+        return $this->component('laravel-views::components.select-edit', [
+            'model' => $model,
+            'field' => $field,
+            'options' => $options
+        ]);
+    }
+
     public function badge($title, $type = 'default')
     {
         return $this->component('laravel-views::components.badge', [
