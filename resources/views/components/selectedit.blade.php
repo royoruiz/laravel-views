@@ -35,5 +35,5 @@ Render an editable input field --}}
     class='transition-all duration-300 ease-in-out px-2 py-1 rounded cursor-pointer focus:outline-none hover:bg-white hover:border-gray-500 border border-transparent'>
     {!! strip_tags($model->$field) !!}
   </div>
-  </select>
+  
 </div>
