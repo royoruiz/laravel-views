@@ -15,9 +15,9 @@ class UI
     }
 
 
-    public function select-edit($model, $field, $options)
+    public function selectedit($model, $field, $options)
     {
-        return $this->component('laravel-views::components.select-edit', [
+        return $this->component('laravel-views::components.selectedit', [
             'model' => $model,
             'field' => $field,
             'options' => $options

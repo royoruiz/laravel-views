@@ -1,4 +1,4 @@
-{{-- components.select-edit
+{{-- components.selectedit
 
 Render an editable input field --}}
 @props(['model', 'field', 'options' => ''])
